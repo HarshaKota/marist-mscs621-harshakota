@@ -3,10 +3,10 @@
 This Node.js app demonstrates the Watson Assistant service in a simple interface engaging in a series of simple simulated banking tasks.</br>
 This application provides the user with a virtual bank agent that can help you with different banking tasks:
 
-* Help you choose a credit card
-* Make an appointment at the banker
-* Help you choose a credit card
-* etc
+> * Help you choose a credit card
+> * Make an appointment at the banker
+> * Help you choose a credit card
+> * etc
 
 ### Prerequisites
 
@@ -20,11 +20,15 @@ This application provides the user with a virtual bank agent that can help you w
     - Copy the `apikey` value, or copy the `username` and `password` values if your service instance doesn't provide an `apikey`.
     - Copy the `url` value.
 
-* Vagrant
-* Docker
-* 
+### Dependencies
 
-Click here to view a working demonstration of the application [demo](http://18.224.71.150:3000)
+> * Vagrant
+> * Docker
+> * Virtual Box
+> * Node js CLI
+> * IBM Cloud CLI
+
+<h1>Click here to view a working demonstration of the application [demo](http://18.224.71.150:3000)</h1>
 
 <h3> Click here to view the application</h3>
 <h3>[demo](http://18.224.71.150:3000)</h3>
