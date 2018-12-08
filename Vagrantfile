@@ -53,8 +53,8 @@ end
     #vb.gui = true
 
     # Customize the amount of memory on the VM:
-    vb.customize ["modifyvm", :id, "--memory", "1024"]
-    vb.customize ["modifyvm", :id, "--cpus", "2"]
+    vb.customize ["modifyvm", :id, "--memory", "4096"]
+    vb.customize ["modifyvm", :id, "--cpus", "4"]
     vb.customize ["modifyvm", :id, "--natdnshostresolver1", "on"]
   end
 
