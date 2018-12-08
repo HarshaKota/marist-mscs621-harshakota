@@ -1,5 +1,7 @@
 <h1 align="center" style="border-bottom: none;">Watson Assistant Banking Application</h1>
+
 This Node.js app demonstrates the Watson Assistant service in a simple interface engaging in a series of simple simulated banking tasks.
+This application provides the user with following options and more:
 
 * A virtual bank agent that can help you with different banking tasks
 * Help you choose a credit card
