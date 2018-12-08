@@ -87,6 +87,7 @@ cp .env.example .env
 ```
 sudo docker-compose up
 ```
+![dockercomposeup](https://user-images.githubusercontent.com/18014466/49691862-affabf00-fb19-11e8-87bd-441dc61b8f32.gif)
 
 6. Visit the IP address of your VM at port 3000 in your browser.
 *IP can also be found in the Vagrantfile*
