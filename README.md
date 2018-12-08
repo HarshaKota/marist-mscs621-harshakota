@@ -9,7 +9,8 @@ This application provides the user with a virtual bank agent that can help you w
 > * Help you choose a credit card
 > * etc
 
-##
+## 🚀 Click [here](http://18.224.71.150:3000) to view a working demonstration of the application
+
 ### Prerequisites
 
 1. Sign up for an [IBM Cloud account](https://console.bluemix.net/registration/).
@@ -22,8 +23,7 @@ This application provides the user with a virtual bank agent that can help you w
     - Copy the `apikey` value, or copy the `username` and `password` values if your service instance doesn't provide an `apikey`.
     - Copy the `url` value.
 
-##
-## Configuring the application
+## Configure the application
 
 1. Click the launch tool. This should take you to the IBM Watson Assistatant Page
 
@@ -64,7 +64,7 @@ This application provides the user with a virtual bank agent that can help you w
 > * Node js CLI
 > * IBM Cloud CLI
 ##
-## 🚀 Click [here](http://18.224.71.150:3000) to view a working demonstration of the application
+
 ## Deploying the application
 ### Local Cloud Environment
 
@@ -78,8 +78,16 @@ vagrant ssh
 
 ![vagrantup and vagrant ssh](https://user-images.githubusercontent.com/18014466/49681102-4a032e80-fa6a-11e8-9ede-fcf766175679.gif)
 
+2. Clone the repo into the vagrant machine and nagivigate to it.
+```
+git clone https://github.com/HarshaKota/marist-mscs621-harshakota
+```
 
+3. Perform steps 6 & 7 to add the credentials into the .env file
 
+4. Run </br>
+```
+docker
 
 
 
