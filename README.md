@@ -21,10 +21,43 @@ This application provides the user with a virtual bank agent that can help you w
     - Copy the `apikey` value, or copy the `username` and `password` values if your service instance doesn't provide an `apikey`.
     - Copy the `url` value.
 
+## Configuring the application
+
+1. Click the launch tool. This should take you to the IBM Watson Assistatant Page
+
+2. Click the **Skills** icon in the header. Create a new skill.
+
+3. Click the **import Skill** icon and choose the JSON file from the local copy of the project:
+
+    `<project_root>/training/bank_simple_workspace.json`
+
+3. Select **Everything (Intents, Entities, and Dialog)**
+
+4. Click **Import**.
+
+5. Click on **Skills** from the header or go back homepage and then **Skills**
+
+    `Skills/Bank_Simple/Build`
+
+4. Click on the 3 dots on the newly created skill and ***View API Details***
+
+5. Copy the ***Workspace ID*** & ***Username*** & ***Password***
+
+6. In your local project folder run the below command to make a **.env** file from the **.env.example** file
+
+    ```
+    cp .env.example .env
+    ```
+
+7. Open the *.env* file and add the credentials copied in the previous step.
+
+    ```nano .env```
+    
 ### Dependencies
 
 > * Vagrant
 > * Docker
+> * Docker Compose
 > * Virtual Box
 > * Node js CLI
 > * IBM Cloud CLI
@@ -34,8 +67,12 @@ This application provides the user with a virtual bank agent that can help you w
 ### Local Cloud Environment
 
 1. Run </br>
-``` vagrant up ``` </br>
-``` vagrant ssh ```
+``` 
+vagrant up 
+```
+```
+vagrant ssh
+```
 
 ![vagrantup and vagrant ssh](https://user-images.githubusercontent.com/18014466/49681102-4a032e80-fa6a-11e8-9ede-fcf766175679.gif)
 
