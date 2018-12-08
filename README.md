@@ -92,7 +92,7 @@ sudo docker-compose up
 6. Visit the IP address of your VM at port 3000 in your browser.
 *IP can also be found in the Vagrantfile*
 
-
+![local webpage 2](https://user-images.githubusercontent.com/18014466/49691870-e33d4e00-fb19-11e8-86d4-5ca3cd201ce0.PNG)
 
 
 <h3 align="center">This application is taken from another project on github. https://github.com/watson-developer-cloud/assistant-simple</h3>
