@@ -8,6 +8,7 @@ This application provides the user with a virtual bank agent that can help you w
 > * Help you choose a credit card
 > * etc
 
+##
 ### Prerequisites
 
 1. Sign up for an [IBM Cloud account](https://console.bluemix.net/registration/).
@@ -27,8 +28,9 @@ This application provides the user with a virtual bank agent that can help you w
 > * Virtual Box
 > * Node js CLI
 > * IBM Cloud CLI
-
-### Click [here](http://18.224.71.150:3000) to view a working demonstration of the application
+##
+## Click [here](http://18.224.71.150:3000) to view a working demonstration of the application
+##
 
 ![vagrantup and vagrant ssh](https://user-images.githubusercontent.com/18014466/49681102-4a032e80-fa6a-11e8-9ede-fcf766175679.gif)
 
