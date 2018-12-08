@@ -61,7 +61,7 @@ This application provides the user with a virtual bank agent that can help you w
 > * Docker
 > * Docker Compose
 > * Virtual Box
-> * Node js CLI
+> * Node.js CLI
 > * IBM Cloud CLI
 ##
 
@@ -83,11 +83,14 @@ vagrant ssh
 git clone https://github.com/HarshaKota/marist-mscs621-harshakota
 ```
 
-3. Perform steps 6 & 7 to add the credentials into the .env file
+3. Perform steps **6 & 7** to add your service credentials into the .env file
 
-4. Run </br>
+4. Install **Node.js**, **Docker** & **Docker-Compose**
+
+5. Run </br>
 ```
-docker
+sudo docker-compose up
+```
 
 
 
