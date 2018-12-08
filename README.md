@@ -9,7 +9,7 @@ This application provides the user with a virtual bank agent that can help you w
 > * Help you choose a credit card
 > * etc
 
-## 🚀 Click [here](http://18.224.71.150:3000) to view a working demonstration of the application
+## :link: Click [here](http://18.224.71.150:3000) to view a working demonstration of the application
 
 ### Prerequisites
 
