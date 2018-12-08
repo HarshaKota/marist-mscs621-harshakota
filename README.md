@@ -25,7 +25,7 @@ This application provides the user with a virtual bank agent that can help you w
 
 ## Configure the application
 
-1. Click the launch tool. This should take you to the IBM Watson Assistatant Page
+1. Click the ***Launch tool***. This should take you to the IBM Watson Assistatant Page
 
 2. Click the **Skills** icon in the header. Create a new skill.
 
