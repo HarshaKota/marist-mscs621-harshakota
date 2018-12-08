@@ -14,7 +14,6 @@ This application provides the user with a virtual bank agent that can help you w
 ### Prerequisites
 
 1. Sign up for an [IBM Cloud account](https://console.bluemix.net/registration/).
-1. Download the [IBM Cloud CLI](https://console.bluemix.net/docs/cli/index.html#overview).
 1. Create an instance of the Watson Assistant service and get your credentials:
     - Go to the [Watson Assistant](https://console.bluemix.net/catalog/services/conversation) page in the IBM Cloud Catalog.
     - Log in to your IBM Cloud account.
@@ -66,7 +65,7 @@ vagrant up
 vagrant ssh
 ```
 
-![vagrantup and vagrant ssh](https://user-images.githubusercontent.com/18014466/49681102-4a032e80-fa6a-11e8-9ede-fcf766175679.gif)
+![vagrantupandssh](https://user-images.githubusercontent.com/18014466/49691843-3662d100-fb19-11e8-8f8a-efa930003605.gif)
 
 2. Clone the repo into the vagrant machine and nagivigate to it.
 ```
@@ -82,14 +81,15 @@ cp .env.example .env
 
     ```nano .env```
     
-5. Install **Node.js**, **Docker** & **Docker-Compose**
+5. Install **[Node.js](https://github.com/nodesource/distributions/blob/master/README.md#debinstall)**, **[IBM Cloud CLI](https://console.bluemix.net/docs/cli/index.html#overview)**, **[Docker](https://docs.docker.com/install/linux/docker-ce/ubuntu/#install-docker-ce-1)** & **[Docker-Compose](https://docs.docker.com/compose/install/#install-compose)**
 
 5. Run </br>
 ```
 sudo docker-compose up
 ```
 
-
+6. Visit the IP address of your VM at port 3000 in your browser.
+*IP can also be found in the Vagrantfile*
 
 
 
