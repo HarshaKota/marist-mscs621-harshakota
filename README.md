@@ -33,29 +33,19 @@ This application provides the user with a virtual bank agent that can help you w
 
     `<project_root>/training/bank_simple_workspace.json`
 
-3. Select **Everything (Intents, Entities, and Dialog)**
+4. Select **Everything (Intents, Entities, and Dialog)**
 
-4. Click **Import**.
+5. Click **Import**.
 
-5. Click on **Skills** from the header or go back homepage and then **Skills**
+6. Click on **Skills** from the header or go back homepage and then **Skills**
 
     `Skills/Bank_Simple/Build`
 
-4. Click on the 3 dots on the newly created skill and ***View API Details***
+7. Click on the 3 dots on the newly created skill and ***View API Details***
 
-5. Copy the ***Workspace ID*** & ***Username*** & ***Password***
-
-6. In your local project folder run the below command to make a **.env** file from the **.env.example** file
-
-    ```
-    cp .env.example .env
-    ```
-
-7. Open the *.env* file and add the credentials copied in the previous step.
-
-    ```nano .env```
+8. Copy the ***Workspace ID*** & ***Username*** & ***Password***
     
-### Dependencies
+###Dependencies
 
 > * Vagrant
 > * Docker
@@ -83,9 +73,16 @@ vagrant ssh
 git clone https://github.com/HarshaKota/marist-mscs621-harshakota
 ```
 
-3. Perform steps **6 & 7** to add your service credentials into the .env file
+3. Navigate to your local project folder to make a **.env** file from the **.env.example** file
+```
+cp .env.example .env
+```
 
-4. Install **Node.js**, **Docker** & **Docker-Compose**
+4. Open the *.env* file and add the credentials copied in the #[Configure Section](#configure-the-application) step.
+
+    ```nano .env```
+    
+5. Install **Node.js**, **Docker** & **Docker-Compose**
 
 5. Run </br>
 ```
