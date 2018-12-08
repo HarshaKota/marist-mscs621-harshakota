@@ -8,6 +8,8 @@
 Vagrant.configure("2") do |config|
     config.vm.provider :virtualbox do |vb|
         vb.name = "mscs621-local"
+    end
+end
   # The most common configuration options are documented and commented below.
   # For a complete reference, please see the online documentation at
   # https://docs.vagrantup.com.
