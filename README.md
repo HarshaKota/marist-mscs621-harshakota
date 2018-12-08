@@ -45,7 +45,7 @@ This application provides the user with a virtual bank agent that can help you w
 
 8. Copy the ***Workspace ID*** & ***Username*** & ***Password***
     
-###Dependencies
+### Dependencies
 
 > * Vagrant
 > * Docker
@@ -78,7 +78,7 @@ git clone https://github.com/HarshaKota/marist-mscs621-harshakota
 cp .env.example .env
 ```
 
-4. Open the *.env* file and add the credentials copied in the #[Configure Section](#configure-the-application) step.
+4. Open the *.env* file and add the credentials copied from #[Configure Section](#configure-the-application) steps.
 
     ```nano .env```
     
