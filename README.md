@@ -29,9 +29,14 @@ This application provides the user with a virtual bank agent that can help you w
 > * Node js CLI
 > * IBM Cloud CLI
 ##
-## Click [here](http://18.224.71.150:3000) to view a working demonstration of the application
+## 🚀 Click [here](http://18.224.71.150:3000) to view a working demonstration of the application
 ## Deploying the application
 ### Local Cloud Environment
+
+1. Run </br>
+``` vagrant up ``` </br>
+``` vagrant ssh ```
+
 ![vagrantup and vagrant ssh](https://user-images.githubusercontent.com/18014466/49681102-4a032e80-fa6a-11e8-9ede-fcf766175679.gif)
 
 
