@@ -2,7 +2,7 @@
 
 This Node.js app demonstrates the Watson Assistant service in a simple interface engaging in a series of simple simulated banking tasks.
 
-This application provides the user with a virtual bank agent that can help you with different banking tasks:
+This application provides the user with a virtual banking agent that can help you with different banking tasks:
 
 > * Help you choose a credit card
 > * Make an appointment at the banker
@@ -14,7 +14,7 @@ This application provides the user with a virtual bank agent that can help you w
 ### Prerequisites
 
 1. Sign up for an [IBM Cloud account](https://console.bluemix.net/registration/).
-1. Create an instance of the Watson Assistant service and get your credentials:
+2. Create an instance of the Watson Assistant service and get your credentials:
     - Go to the [Watson Assistant](https://console.bluemix.net/catalog/services/conversation) page in the IBM Cloud Catalog.
     - Log in to your IBM Cloud account.
     - Click **Create**.
@@ -22,7 +22,7 @@ This application provides the user with a virtual bank agent that can help you w
     - Copy the `apikey` value, or copy the `username` and `password` values if your service instance doesn't provide an `apikey`.
     - Copy the `url` value.
 
-## Configure the application
+### Configure the application
 
 1. Click the ***Launch tool***. This should take you to the IBM Watson Assistatant Page
 
@@ -44,7 +44,7 @@ This application provides the user with a virtual bank agent that can help you w
 
 8. Copy the ***Workspace ID*** & ***Username*** & ***Password***
     
-### Dependencies
+## Dependencies
 
 > * Vagrant
 > * Docker
@@ -52,7 +52,6 @@ This application provides the user with a virtual bank agent that can help you w
 > * Virtual Box
 > * Node.js CLI
 > * IBM Cloud CLI
-##
 
 ## Deploying the application
 ### Local Cloud Environment
@@ -89,24 +88,29 @@ sudo docker-compose up
 ```
 ![dockercomposeup](https://user-images.githubusercontent.com/18014466/49691862-affabf00-fb19-11e8-87bd-441dc61b8f32.gif)
 
-6. Visit the IP address of your VM at port 3000 in your browser.
+6. Visit the *IP Address* of your VM at port **3000** in your browser.
 *IP can also be found in the Vagrantfile*
 
 ![local webpage 2](https://user-images.githubusercontent.com/18014466/49691870-e33d4e00-fb19-11e8-86d4-5ca3cd201ce0.PNG)
 
-
-<h3 align="center">This application is taken from another project on github. https://github.com/watson-developer-cloud/assistant-simple</h3>
-
 ### Amazon Web Services Environment
 1. Create a AWS EC2 ***Ubuntu*** instance
-1. ***Create a new key pair** with **your name** and download it to your local folder
-1. Navigate to ***Running Instances** on your **EC2 Dashboard***
-1. Make sure the ***Instance State*** is **running** and select it.
-2. Copy the ***Public DNS (IPv4)** and ***IPv4 Public IP***
-3. Navigate to ***Security Groups***
-4. Select the newly created security group and select ***Inbound*** below
-5. Click ***Edit*** and ***Add Rule***
-6. Change the ***Port Range*** to ***3000*** and ***Source*** to ***Anywhere*** and ***Save***
+
+2. ***Create a new key pair*** with **your name** and download it to your local folder
+
+3. Navigate to ***Running Instances** on your **EC2 Dashboard***
+
+4. Make sure the ***Instance State*** is **running** and select it.
+
+5. Copy the ***Public DNS (IPv4)** and ***IPv4 Public IP***
+
+6. Navigate to ***Security Groups***
+
+7. Select the newly created security group and select ***Inbound*** below
+
+8. Click ***Edit*** and ***Add Rule***
+
+9. Change the ***Port Range*** to ***3000*** and ***Source*** to ***Anywhere*** and ***Save***
 
 > 1. Open up a terminal and navigate to where you downloaded the key file
 > 2. Run
@@ -142,3 +146,6 @@ sudo docker-compose up
 
 6. Visit the **IPv4 Public IP** at port 3000 in your browser.
 *IPv4 Public IP can be found in your ***AWS EC2 Dashboard*** Running Instances*
+
+
+<h3 align="center">This application is taken from another project on github. https://github.com/watson-developer-cloud/assistant-simple</h3>
