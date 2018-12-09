@@ -96,3 +96,49 @@ sudo docker-compose up
 
 
 <h3 align="center">This application is taken from another project on github. https://github.com/watson-developer-cloud/assistant-simple</h3>
+
+### Amazon Web Services Environment
+1. Create a AWS EC2 ***Ubuntu*** instance
+1. ***Create a new key pair** with **your name** and download it to your local folder
+1. Navigate to ***Running Instances** on your **EC2 Dashboard***
+1. Make sure the ***Instance State*** is **running** and select it.
+2. Copy the ***Public DNS (IPv4)** and ***IPv4 Public IP***
+3. Navigate to ***Security Groups***
+4. Select the newly created security group and select ***Inbound*** below
+5. Click ***Edit*** and ***Add Rule***
+6. Change the ***Port Range*** to ***3000*** and ***Source*** to ***Anywhere*** and ***Save***
+
+> 1. Open up a terminal and navigate to where you downloaded the key file
+> 2. Run
+```
+chmod 400 <Your key file>
+```
+> 3. Run
+*Public DNS (IPv4) can be found in your ***AWS EC2 Dashboard*** Running Instances*
+```
+ssh -i <key file> ubuntu@<Public DNS (IPv4)>
+```
+2. Clone the repo into the vagrant machine and nagivigate to it.
+```
+git clone https://github.com/HarshaKota/marist-mscs621-harshakota
+```
+
+3. Navigate to your local project folder to make a **.env** file from the **.env.example** file
+```
+cp .env.example .env
+```
+
+4. Open the *.env* file and add the credentials copied from #[Configure Section](#configure-the-application) steps.
+
+    ```nano .env```
+    
+5. Install **[Node.js](https://github.com/nodesource/distributions/blob/master/README.md#debinstall)**, **[IBM Cloud CLI](https://console.bluemix.net/docs/cli/index.html#overview)**, **[Docker](https://docs.docker.com/install/linux/docker-ce/ubuntu/#install-docker-ce-1)** & **[Docker-Compose](https://docs.docker.com/compose/install/#install-compose)**
+
+5. Run </br>
+```
+sudo docker-compose up
+```
+![dockercomposeup](https://user-images.githubusercontent.com/18014466/49691862-affabf00-fb19-11e8-87bd-441dc61b8f32.gif)
+
+6. Visit the **IPv4 Public IP** at port 3000 in your browser.
+*IPv4 Public IP can be found in your ***AWS EC2 Dashboard*** Running Instances*
