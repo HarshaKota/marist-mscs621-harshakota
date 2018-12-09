@@ -82,13 +82,13 @@ cp .env.example .env
     
 5. Install **[Node.js](https://github.com/nodesource/distributions/blob/master/README.md#debinstall)**, **[IBM Cloud CLI](https://console.bluemix.net/docs/cli/index.html#overview)**, **[Docker](https://docs.docker.com/install/linux/docker-ce/ubuntu/#install-docker-ce-1)** & **[Docker-Compose](https://docs.docker.com/compose/install/#install-compose)**
 
-5. Run </br>
+6. Run </br>
 ```
 sudo docker-compose up
 ```
 ![dockercomposeup](https://user-images.githubusercontent.com/18014466/49691862-affabf00-fb19-11e8-87bd-441dc61b8f32.gif)
 
-6. Visit the *IP Address* of your VM at port **3000** in your browser.
+7. Visit the *IP Address* of your VM at port **3000** in your browser.
 *IP can also be found in the Vagrantfile*
 
 ![local webpage 2](https://user-images.githubusercontent.com/18014466/49691870-e33d4e00-fb19-11e8-86d4-5ca3cd201ce0.PNG)
