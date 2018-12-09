@@ -118,34 +118,34 @@ sudo docker-compose up
 ```
 chmod 400 <Your key file>
 ```
-> 3. Run
+12. Run
 *Public DNS (IPv4) can be found in your ***AWS EC2 Dashboard*** Running Instances*
 ```
 ssh -i <key file> ubuntu@<Public DNS (IPv4)>
 ```
-2. Clone the repo into the vagrant machine and nagivigate to it.
+13. Clone the repo into the vagrant machine and nagivigate to it.
 ```
 git clone https://github.com/HarshaKota/marist-mscs621-harshakota
 ```
 
-3. Navigate to your local project folder to make a **.env** file from the **.env.example** file
+14. Navigate to your local project folder to make a **.env** file from the **.env.example** file
 ```
 cp .env.example .env
 ```
 
-4. Open the *.env* file and add the credentials copied from #[Configure Section](#configure-the-application) steps.
+15. Open the *.env* file and add the credentials copied from #[Configure Section](#configure-the-application) steps.
 
     ```nano .env```
     
-5. Install **[Node.js](https://github.com/nodesource/distributions/blob/master/README.md#debinstall)**, **[IBM Cloud CLI](https://console.bluemix.net/docs/cli/index.html#overview)**, **[Docker](https://docs.docker.com/install/linux/docker-ce/ubuntu/#install-docker-ce-1)** & **[Docker-Compose](https://docs.docker.com/compose/install/#install-compose)**
+16. Install **[Node.js](https://github.com/nodesource/distributions/blob/master/README.md#debinstall)**, **[IBM Cloud CLI](https://console.bluemix.net/docs/cli/index.html#overview)**, **[Docker](https://docs.docker.com/install/linux/docker-ce/ubuntu/#install-docker-ce-1)** & **[Docker-Compose](https://docs.docker.com/compose/install/#install-compose)**
 
-5. Run </br>
+17. Run </br>
 ```
 sudo docker-compose up
 ```
 ![dockercomposeup](https://user-images.githubusercontent.com/18014466/49691862-affabf00-fb19-11e8-87bd-441dc61b8f32.gif)
 
-6. Visit the **IPv4 Public IP** at port 3000 in your browser.
+18. Visit the **IPv4 Public IP** at port 3000 in your browser.
 *IPv4 Public IP can be found in your ***AWS EC2 Dashboard*** Running Instances*
 
 
