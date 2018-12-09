@@ -112,6 +112,8 @@ sudo docker-compose up
 
 9. Change the ***Port Range*** to ***3000*** and ***Source*** to ***Anywhere*** and ***Save***
 
+![ec2managementconsolegoogle](https://user-images.githubusercontent.com/18014466/49692069-b2abe300-fb1e-11e8-975a-83c1e6a711e7.gif)
+
 10. Open up a terminal and navigate to where you downloaded the key file
 
 11. Run
@@ -143,7 +145,8 @@ cp .env.example .env
 ```
 sudo docker-compose up
 ```
-![dockercomposeup](https://user-images.githubusercontent.com/18014466/49691862-affabf00-fb19-11e8-87bd-441dc61b8f32.gif)
+
+
 
 18. Visit the **IPv4 Public IP** at port 3000 in your browser.
 *IPv4 Public IP can be found in your ***AWS EC2 Dashboard*** Running Instances*
