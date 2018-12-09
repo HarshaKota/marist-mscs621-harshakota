@@ -102,7 +102,7 @@ sudo docker-compose up
 
 4. Make sure the ***Instance State*** is **running** and select it
 
-5. Copy the ***Public DNS (IPv4)** and ***IPv4 Public IP***
+5. Copy the ***Public DNS (IPv4)*** and ***IPv4 Public IP***
 
 6. Navigate to ***Security Groups***
 
@@ -125,6 +125,8 @@ chmod 400 <Your key file>
 ```
 ssh -i <key file> ubuntu@<Public DNS (IPv4)>
 ```
+![sshaws](https://user-images.githubusercontent.com/18014466/49692529-e1c85180-fb2a-11e8-8fce-3b69c0c49021.gif)
+
 13. Clone the repo into the vagrant machine and nagivigate to it.
 ```
 git clone https://github.com/HarshaKota/marist-mscs621-harshakota
@@ -145,11 +147,11 @@ cp .env.example .env
 ```
 sudo docker-compose up
 ```
-
-
+![awsdockercomposeup](https://user-images.githubusercontent.com/18014466/49692536-10dec300-fb2b-11e8-92b7-f29243a51bc3.gif)
 
 18. Visit the **IPv4 Public IP** at port 3000 in your browser.
 *IPv4 Public IP can be found in your ***AWS EC2 Dashboard*** Running Instances*
 
+![aws webpage](https://user-images.githubusercontent.com/18014466/49692544-1f2cdf00-fb2b-11e8-8a92-3249f2dc9e07.PNG)
 
 <h3 align="center">This application is taken from another project on github. https://github.com/watson-developer-cloud/assistant-simple</h3>
