@@ -155,3 +155,7 @@ sudo docker-compose up
 ![aws webpage](https://user-images.githubusercontent.com/18014466/49692544-1f2cdf00-fb2b-11e8-8a92-3249f2dc9e07.PNG)
 
 <h3 align="center">This application is taken from another project on github. https://github.com/watson-developer-cloud/assistant-simple</h3>
+
+## Architecture
+
+![harshakotaarchitecture](https://user-images.githubusercontent.com/18014466/49754307-b9a03600-fc83-11e8-9c8f-b17ca6d18512.png)
