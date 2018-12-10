@@ -4,7 +4,7 @@ by Harsha Kota
 <h1 align="center" style="border-bottom: none;">Watson Assistant Banking Application</h1>
 
 ## About
-This application is built on Node.js taht demonstrates the working of the IBM Watson Assistant Service that can engage and help users in a series of simulated banking tasks
+This application is built on Node.js that demonstrates the working of the IBM Watson Assistant Service that can engage and help users in a series of simulated banking tasks
 
 This project uses two Cloud Services, IBM Bluemix Cloud and AWS:
 1. *IBM Cloud is used for its Watson Assistant Service*
