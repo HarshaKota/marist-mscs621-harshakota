@@ -120,7 +120,7 @@ sudo docker-compose up
 ```
 chmod 400 <Your key file>
 ```
-12. Run
+12. Run </br>
 *Public DNS (IPv4) can be found in your ***AWS EC2 Dashboard*** Running Instances*
 ```
 ssh -i <key file> ubuntu@<Public DNS (IPv4)>
@@ -149,7 +149,7 @@ sudo docker-compose up
 ```
 ![awsdockercomposeup](https://user-images.githubusercontent.com/18014466/49692536-10dec300-fb2b-11e8-92b7-f29243a51bc3.gif)
 
-18. Visit the **IPv4 Public IP** at port 3000 in your browser.
+18. Visit the **IPv4 Public IP** at port 3000 in your browser </br>
 *IPv4 Public IP can be found in your ***AWS EC2 Dashboard*** Running Instances*
 
 ![aws webpage](https://user-images.githubusercontent.com/18014466/49692544-1f2cdf00-fb2b-11e8-8a92-3249f2dc9e07.PNG)
