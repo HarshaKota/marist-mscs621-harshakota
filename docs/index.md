@@ -12,3 +12,8 @@ It allows us to create a skill that contains the training data and machine learn
 
 2. *Amazon Web Services*
 It allows us to create and launch a virtual server known as an EC2 Instance, in our case a Ubuntu Server. This server will run our service in a container using **docker** that will talk to the **IBM Watson Assistant** through *IBM Watson Assistant [API](https://cloud.ibm.com/apidocs/assistant?language=node) calls* to orchestrate the flow of information between a skill and the user.
+
+### :link: Click [here](http://18.224.71.150:3000) to view a working demonstration of the application
+
+#### Demo
+![deepin-screen-recorder_google-chrome_20181210150748](https://user-images.githubusercontent.com/18014466/49758705-abefae00-fc8d-11e8-8453-4a10745bc342.gif)
