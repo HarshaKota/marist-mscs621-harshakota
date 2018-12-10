@@ -161,5 +161,8 @@ sudo docker-compose up
 ![harshakotaarchitecture](https://user-images.githubusercontent.com/18014466/49754307-b9a03600-fc83-11e8-9c8f-b17ca6d18512.png)
 
 ### API Specification
+*Authentication, Data Handling, Error Handling and Methods to get response from user input*
 
 [Watson Assistant API](https://cloud.ibm.com/apidocs/assistant?language=node)
+
+
