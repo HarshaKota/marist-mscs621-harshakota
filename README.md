@@ -167,6 +167,6 @@ sudo docker-compose up
 
 [Watson Assistant API](https://cloud.ibm.com/apidocs/assistant?language=node)
 
-###
+#
 
 <h3 align="center">This application is heavily borrowed from another project on github. https://github.com/watson-developer-cloud/assistant-simple</h3>
