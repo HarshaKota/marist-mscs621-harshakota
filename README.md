@@ -159,3 +159,7 @@ sudo docker-compose up
 ## Architecture
 
 ![harshakotaarchitecture](https://user-images.githubusercontent.com/18014466/49754307-b9a03600-fc83-11e8-9c8f-b17ca6d18512.png)
+
+### API Specification
+
+[Watson Assistant API](https://cloud.ibm.com/apidocs/assistant?language=node)
